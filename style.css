@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body{
+    background-color: antiquewhite;
+}
+
+.presentacion{
+    padding: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 35px;
+    text-align: center;
+    transition: 1s;
+}
+
+.presentacion:hover{
+    color: brown;
+    transition: 0.5s;
+}
+
+.listas_int{
+    padding: 25px;
+}
+
+.listas{
+    display: flex;
+    list-style: none;
+    text-align: center;
+    justify-content: space-between;
+}
+
+.integrantes{
+    font-size: 15px;
+    color: brown;
+}
+
+.listas ul{
+    text-decoration: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+li{
+    text-decoration: none;
+}
